@@ -12,7 +12,9 @@ import android.view.View;
 import android.view.animation.AccelerateDecelerateInterpolator;
 import android.view.animation.Animation;
 
-public class GraduallyTextView extends androidx.appcompat.widget.AppCompatTextView {
+import com.siddydevelops.customlottiedialogbox.customView.MyTextView;
+
+public class GraduallyTextView extends MyTextView {
 
     private CharSequence text;
     private int startY = 0;
@@ -39,10 +41,10 @@ public class GraduallyTextView extends androidx.appcompat.widget.AppCompatTextVi
     }
 
 
-    public GraduallyTextView(Context context, AttributeSet attrs, int defStyleAttr) {
-        super(context, attrs, defStyleAttr);
-        init();
-    }
+//    public GraduallyTextView(Context context, AttributeSet attrs, int defStyleAttr) {
+//        super(context, attrs, defStyleAttr);
+//        init();
+//    }
 
 
     public void init() {
