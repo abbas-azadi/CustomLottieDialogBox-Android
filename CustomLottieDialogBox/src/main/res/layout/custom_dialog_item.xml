@@ -35,7 +35,7 @@
                 android:layout_marginBottom="30dp"
                 android:elevation="10dp"
                 android:gravity="center"
-                android:text="L O A D I N G..."
+                android:text="منتظر بمایند "
                 android:paddingTop="2dp"
                 android:paddingBottom="3dp"
                 android:textAlignment="center"
