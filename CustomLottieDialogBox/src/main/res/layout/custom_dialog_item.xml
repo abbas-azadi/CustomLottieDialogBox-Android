@@ -27,7 +27,7 @@
                 app:layout_constraintTop_toTopOf="parent"
                 app:lottie_autoPlay="true" />
 
-            <com.siddydevelops.customlottiedialogbox.GraduallyTextView
+            <com.siddydevelops.customlottiedialogbox.customView.MyTextView
                 android:id="@+id/loadingTextView"
                 android:layout_width="180dp"
                 android:layout_height="wrap_content"
